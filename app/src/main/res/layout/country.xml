@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/morocco"
+        android:id="@+id/countryImg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morocco"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:id="@+id/country"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/countryImg"/>
+</RelativeLayout>

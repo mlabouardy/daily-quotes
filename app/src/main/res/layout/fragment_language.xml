@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="labouardy.com.dailyquotes.RegisterFragment"
+    android:background="#FFF">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:id="@+id/ll1"
+            android:gravity="center"
+            android:background="#F23258">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Your full name:"
+                android:textSize="20sp"
+                android:textColor="#FFF"/>
+
+        </TableRow>
+
+        <com.andreabaccega.widget.FormEditText
+            testType="alpha"
+            android:id="@+id/txtName"
+            emptyErrorString="enter s"
+            testErrorString="pfff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_below="@+id/ll1"
+            android:layout_marginBottom="20dip"/>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

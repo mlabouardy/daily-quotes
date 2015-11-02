@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="labouardy.com.dailyquotes.RegisterFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:id="@+id/ll1"
+            android:gravity="center"
+            android:background="#F23258">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Your Language:"
+                android:textSize="20sp"
+                android:textColor="#FFF"/>
+
+        </TableRow>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/groupBtn"
+            android:layout_below="@+id/ll1">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="العربية"
+                android:id="@+id/arabic"
+                android:layout_below="@+id/ll1"
+                android:layout_alignParentStart="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:id="@+id/english"
+                android:layout_below="@+id/radioButton"
+                android:layout_alignParentStart="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Français"
+                android:id="@+id/french"
+                android:layout_below="@+id/radioButton2"
+                android:layout_alignParentStart="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Español"
+                android:id="@+id/spanish"
+                android:layout_below="@+id/radioButton2"
+                android:layout_alignParentStart="true" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/groupBtn"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="11dp"
+            android:id="@+id/note"
+            android:text="Note: Other languages will be added soon."/>
+
+
+        <com.dd.processbutton.FlatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/note"
+            android:id="@+id/finish"
+            android:textColor="@android:color/white"
+            pb_colorNormal="@android:color/holo_blue_light"
+            pb_colorPressed="@android:color/holo_blue_dark" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
