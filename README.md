@@ -3,9 +3,9 @@ Android app to get the latest quotes: Inspirational, Motivational, Love, Funny, 
 
 ## Preview
 
-<div class="text-center">
-  <img src="screenshot.webp" width="75%">
-</div>
+<p align="center">
+  <img src="screenshot.webp" width="50%">
+</p>
 
 ## Features
 
