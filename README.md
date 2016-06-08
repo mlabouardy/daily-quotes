@@ -1,6 +1,8 @@
 ## Daily-Quotes
 Android app to get the latest quotes: Inspirational, Motivational, Love, Funny, Inspirational, Sports ... Quotes to bring positive into your life.
 
+[![The Daily Quotes](video.png)](https://www.youtube.com/watch?v=CbI8cPYZR7o "The Daily Quotes")
+
 ## Preview
 
 <p align="center">
